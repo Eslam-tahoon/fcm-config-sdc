@@ -14,9 +14,6 @@
 
 	<platform name="android">
 		<source-file src="google-services.json" target-dir="./"/>
-		<edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
-			<application android:usesCleartextTraffic="true" />
-		</edit-config>
 	</platform>
 
 	<platform name="ios">
