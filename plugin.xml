@@ -20,6 +20,6 @@
 	</platform>
 
 	<platform name="ios">
-		<source-file src="GoogleService-Info.plist"/>
+		<!-- <source-file src="GoogleService-Info.plist"/> -->
 	</platform>
 </plugin>
